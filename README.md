@@ -33,5 +33,3 @@ Then visit [http://localhost:8080](http://localhost:8080)
 - Beautiful card/table graphics
 - Room/lobby management
 
-## License
-MIT 
