@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiplayer Blackjack</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="lobby">
+        <div class="logo-area">
+            <span class="logo">🃏</span>
+            <h1>Blackjack Party!</h1>
+        </div>
+        <div id="funFact" class="fun-fact"></div>
+        <input type="text" id="playerName" placeholder="Your name">
+        <input type="text" id="roomId" placeholder="Room ID">
+        <button id="joinBtn">Join Room</button>
+        <button id="addBotBtn" style="display:none;">Add Computer</button>
+    </div>
+    <div id="game" style="display:none;">
+        <div class="game-header">
+            <h2 id="roomTitle"></h2>
+            <button id="backBtn" class="back-btn">⬅️ Back to Lobby</button>
+        </div>
+        <div id="table">
+            <div id="dealerArea"></div>
+            <div id="playersArea"></div>
+        </div>
+        <div id="actions">
+            <button id="startBtn">Start Game</button>
+            <button id="hitBtn" style="display:none;">Hit</button>
+            <button id="standBtn" style="display:none;">Stand</button>
+        </div>
+        <div id="messages"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html> 

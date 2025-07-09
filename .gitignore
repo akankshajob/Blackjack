@@ -1,0 +1,30 @@
+# Python virtual environments
+venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# VSCode settings (if you use VSCode)
+.vscode/
+
+# Environment variables and secrets
+.env
+
+# Frontend build artifacts (if you add a build step later)
+dist/
+build/
+node_modules/
+
+# Logs
+*.log
+
+# Miscellaneous
+*.swp
+*.swo 
